@@ -1,5 +1,5 @@
 
 provider "aws" {
   profile = "gop"
-  region  = "eu-west-1"
+  region  = "eu-west-3"
 }
