@@ -10,4 +10,5 @@ resource "aws_instance" "vm" {
   associate_public_ip_address = true
 
 
+
 }
