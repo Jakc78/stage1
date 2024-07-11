@@ -1,6 +1,6 @@
 resource "aws_instance" "vm" {
-  ami             = "ami-080fa3659564ffbb1"
-  instance_type   = "t2.micro"
+  ami             = var.ami
+  instance_type   = var.instance_type
 
   metadata_options {
     http_endpoint = "enabled"
